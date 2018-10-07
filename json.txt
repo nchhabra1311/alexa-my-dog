@@ -1,0 +1,76 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my dog",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "voiceActionIntent",
+                    "slots": [
+                        {
+                            "name": "action",
+                            "type": "voiceaction"
+                        }
+                    ],
+                    "samples": [
+                        "{action} at her",
+                        "{action} at him",
+                        "go on  {action}",
+                        "{action} please",
+                        "come on {action} for me",
+                        "to {action} for me",
+                        "{action} for me",
+                        "let's hear a {action}",
+                        "{action}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "voiceaction",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "growl"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "howl"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "whine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bark"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
