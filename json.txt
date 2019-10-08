@@ -32,6 +32,10 @@
                         }
                     ],
                     "samples": [
+			"{action} her away",
+                        "{action} him away",
+                        "{action} them away",
+                        "{action} them",
                         "{action} at her",
                         "{action} at him",
                         "go on  {action}",
@@ -49,6 +53,26 @@
                     "name": "voiceaction",
                     "values": [
                         {
+                            "name": {
+                                "value": "dance"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "scared"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "scare"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "woof"
+                            }
+                        },
+			{
                             "name": {
                                 "value": "growl"
                             }
